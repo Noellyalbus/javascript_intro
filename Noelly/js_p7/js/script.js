@@ -10,7 +10,7 @@ function gerar(){
 
         divBox.addEventListener("click",function() {
 			this.style.backgroundColor = "red";
-			alert(this.getAttribute("id"));
+			// alert(this.getAttribute("id"));
 		});
 
 	    document.body.appendChild(divBox);
