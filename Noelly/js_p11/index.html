@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="timer">
+		<label for="iptTmp">Quanto tempo(segundos):</label>
+		<input type="number" id="iptTmp" onkeyup="contagem(this,'status',lblcontagem)">
+		<br><br>
+		<button id="start" type="button" onclick="startTimer()">iniciar</button>
+		<button id="stop" type="button" onclick="stopTimer()">parar</button>
+		<button id="restart" type="button" onclick="resTimer()">reiniciar</button>
+	</div>
+     
+	<script src="js/script.js"></script>
+
+	<span id="timerpart">00</span>
+
+</body>
+</html>
